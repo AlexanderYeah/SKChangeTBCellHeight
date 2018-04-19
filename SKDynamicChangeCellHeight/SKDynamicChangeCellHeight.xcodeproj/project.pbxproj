@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11321F1120882B6F00BD2118 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11321F1020882B6F00BD2118 /* AppDelegate.m */; };
+		11321F1420882B6F00BD2118 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11321F1320882B6F00BD2118 /* ViewController.m */; };
+		11321F1720882B6F00BD2118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11321F1520882B6F00BD2118 /* Main.storyboard */; };
+		11321F1920882B6F00BD2118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11321F1820882B6F00BD2118 /* Assets.xcassets */; };
+		11321F1C20882B6F00BD2118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11321F1A20882B6F00BD2118 /* LaunchScreen.storyboard */; };
+		11321F1F20882B6F00BD2118 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11321F1E20882B6F00BD2118 /* main.m */; };
+		11321F2920882B6F00BD2118 /* SKDynamicChangeCellHeightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11321F2820882B6F00BD2118 /* SKDynamicChangeCellHeightTests.m */; };
+		11321F3420882B6F00BD2118 /* SKDynamicChangeCellHeightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11321F3320882B6F00BD2118 /* SKDynamicChangeCellHeightUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11321F2520882B6F00BD2118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11321F0420882B6F00BD2118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11321F0B20882B6F00BD2118;
+			remoteInfo = SKDynamicChangeCellHeight;
+		};
+		11321F3020882B6F00BD2118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11321F0420882B6F00BD2118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11321F0B20882B6F00BD2118;
+			remoteInfo = SKDynamicChangeCellHeight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11321F0C20882B6F00BD2118 /* SKDynamicChangeCellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKDynamicChangeCellHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11321F0F20882B6F00BD2118 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11321F1020882B6F00BD2118 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11321F1220882B6F00BD2118 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11321F1320882B6F00BD2118 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11321F1620882B6F00BD2118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11321F1820882B6F00BD2118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11321F1B20882B6F00BD2118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11321F1D20882B6F00BD2118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11321F1E20882B6F00BD2118 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11321F2420882B6F00BD2118 /* SKDynamicChangeCellHeightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKDynamicChangeCellHeightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11321F2820882B6F00BD2118 /* SKDynamicChangeCellHeightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKDynamicChangeCellHeightTests.m; sourceTree = "<group>"; };
+		11321F2A20882B6F00BD2118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11321F2F20882B6F00BD2118 /* SKDynamicChangeCellHeightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKDynamicChangeCellHeightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11321F3320882B6F00BD2118 /* SKDynamicChangeCellHeightUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKDynamicChangeCellHeightUITests.m; sourceTree = "<group>"; };
+		11321F3520882B6F00BD2118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11321F0920882B6F00BD2118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11321F2120882B6F00BD2118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11321F2C20882B6F00BD2118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11321F0320882B6F00BD2118 = {
+			isa = PBXGroup;
+			children = (
+				11321F0E20882B6F00BD2118 /* SKDynamicChangeCellHeight */,
+				11321F2720882B6F00BD2118 /* SKDynamicChangeCellHeightTests */,
+				11321F3220882B6F00BD2118 /* SKDynamicChangeCellHeightUITests */,
+				11321F0D20882B6F00BD2118 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11321F0D20882B6F00BD2118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11321F0C20882B6F00BD2118 /* SKDynamicChangeCellHeight.app */,
+				11321F2420882B6F00BD2118 /* SKDynamicChangeCellHeightTests.xctest */,
+				11321F2F20882B6F00BD2118 /* SKDynamicChangeCellHeightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11321F0E20882B6F00BD2118 /* SKDynamicChangeCellHeight */ = {
+			isa = PBXGroup;
+			children = (
+				11321F0F20882B6F00BD2118 /* AppDelegate.h */,
+				11321F1020882B6F00BD2118 /* AppDelegate.m */,
+				11321F1220882B6F00BD2118 /* ViewController.h */,
+				11321F1320882B6F00BD2118 /* ViewController.m */,
+				11321F1520882B6F00BD2118 /* Main.storyboard */,
+				11321F1820882B6F00BD2118 /* Assets.xcassets */,
+				11321F1A20882B6F00BD2118 /* LaunchScreen.storyboard */,
+				11321F1D20882B6F00BD2118 /* Info.plist */,
+				11321F1E20882B6F00BD2118 /* main.m */,
+			);
+			path = SKDynamicChangeCellHeight;
+			sourceTree = "<group>";
+		};
+		11321F2720882B6F00BD2118 /* SKDynamicChangeCellHeightTests */ = {
+			isa = PBXGroup;
+			children = (
+				11321F2820882B6F00BD2118 /* SKDynamicChangeCellHeightTests.m */,
+				11321F2A20882B6F00BD2118 /* Info.plist */,
+			);
+			path = SKDynamicChangeCellHeightTests;
+			sourceTree = "<group>";
+		};
+		11321F3220882B6F00BD2118 /* SKDynamicChangeCellHeightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11321F3320882B6F00BD2118 /* SKDynamicChangeCellHeightUITests.m */,
+				11321F3520882B6F00BD2118 /* Info.plist */,
+			);
+			path = SKDynamicChangeCellHeightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11321F0B20882B6F00BD2118 /* SKDynamicChangeCellHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11321F3820882B6F00BD2118 /* Build configuration list for PBXNativeTarget "SKDynamicChangeCellHeight" */;
+			buildPhases = (
+				11321F0820882B6F00BD2118 /* Sources */,
+				11321F0920882B6F00BD2118 /* Frameworks */,
+				11321F0A20882B6F00BD2118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKDynamicChangeCellHeight;
+			productName = SKDynamicChangeCellHeight;
+			productReference = 11321F0C20882B6F00BD2118 /* SKDynamicChangeCellHeight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11321F2320882B6F00BD2118 /* SKDynamicChangeCellHeightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11321F3B20882B6F00BD2118 /* Build configuration list for PBXNativeTarget "SKDynamicChangeCellHeightTests" */;
+			buildPhases = (
+				11321F2020882B6F00BD2118 /* Sources */,
+				11321F2120882B6F00BD2118 /* Frameworks */,
+				11321F2220882B6F00BD2118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11321F2620882B6F00BD2118 /* PBXTargetDependency */,
+			);
+			name = SKDynamicChangeCellHeightTests;
+			productName = SKDynamicChangeCellHeightTests;
+			productReference = 11321F2420882B6F00BD2118 /* SKDynamicChangeCellHeightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11321F2E20882B6F00BD2118 /* SKDynamicChangeCellHeightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11321F3E20882B6F00BD2118 /* Build configuration list for PBXNativeTarget "SKDynamicChangeCellHeightUITests" */;
+			buildPhases = (
+				11321F2B20882B6F00BD2118 /* Sources */,
+				11321F2C20882B6F00BD2118 /* Frameworks */,
+				11321F2D20882B6F00BD2118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11321F3120882B6F00BD2118 /* PBXTargetDependency */,
+			);
+			name = SKDynamicChangeCellHeightUITests;
+			productName = SKDynamicChangeCellHeightUITests;
+			productReference = 11321F2F20882B6F00BD2118 /* SKDynamicChangeCellHeightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11321F0420882B6F00BD2118 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = alexander;
+				TargetAttributes = {
+					11321F0B20882B6F00BD2118 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					11321F2320882B6F00BD2118 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 11321F0B20882B6F00BD2118;
+					};
+					11321F2E20882B6F00BD2118 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 11321F0B20882B6F00BD2118;
+					};
+				};
+			};
+			buildConfigurationList = 11321F0720882B6F00BD2118 /* Build configuration list for PBXProject "SKDynamicChangeCellHeight" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11321F0320882B6F00BD2118;
+			productRefGroup = 11321F0D20882B6F00BD2118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11321F0B20882B6F00BD2118 /* SKDynamicChangeCellHeight */,
+				11321F2320882B6F00BD2118 /* SKDynamicChangeCellHeightTests */,
+				11321F2E20882B6F00BD2118 /* SKDynamicChangeCellHeightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11321F0A20882B6F00BD2118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11321F1C20882B6F00BD2118 /* LaunchScreen.storyboard in Resources */,
+				11321F1920882B6F00BD2118 /* Assets.xcassets in Resources */,
+				11321F1720882B6F00BD2118 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11321F2220882B6F00BD2118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11321F2D20882B6F00BD2118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11321F0820882B6F00BD2118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11321F1420882B6F00BD2118 /* ViewController.m in Sources */,
+				11321F1F20882B6F00BD2118 /* main.m in Sources */,
+				11321F1120882B6F00BD2118 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11321F2020882B6F00BD2118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11321F2920882B6F00BD2118 /* SKDynamicChangeCellHeightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11321F2B20882B6F00BD2118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11321F3420882B6F00BD2118 /* SKDynamicChangeCellHeightUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11321F2620882B6F00BD2118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11321F0B20882B6F00BD2118 /* SKDynamicChangeCellHeight */;
+			targetProxy = 11321F2520882B6F00BD2118 /* PBXContainerItemProxy */;
+		};
+		11321F3120882B6F00BD2118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11321F0B20882B6F00BD2118 /* SKDynamicChangeCellHeight */;
+			targetProxy = 11321F3020882B6F00BD2118 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11321F1520882B6F00BD2118 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11321F1620882B6F00BD2118 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11321F1A20882B6F00BD2118 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11321F1B20882B6F00BD2118 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11321F3620882B6F00BD2118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11321F3720882B6F00BD2118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11321F3920882B6F00BD2118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKDynamicChangeCellHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKDynamicChangeCellHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11321F3A20882B6F00BD2118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKDynamicChangeCellHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKDynamicChangeCellHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11321F3C20882B6F00BD2118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKDynamicChangeCellHeightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKDynamicChangeCellHeightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKDynamicChangeCellHeight.app/SKDynamicChangeCellHeight";
+			};
+			name = Debug;
+		};
+		11321F3D20882B6F00BD2118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKDynamicChangeCellHeightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKDynamicChangeCellHeightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKDynamicChangeCellHeight.app/SKDynamicChangeCellHeight";
+			};
+			name = Release;
+		};
+		11321F3F20882B6F00BD2118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKDynamicChangeCellHeightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKDynamicChangeCellHeightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKDynamicChangeCellHeight;
+			};
+			name = Debug;
+		};
+		11321F4020882B6F00BD2118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKDynamicChangeCellHeightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKDynamicChangeCellHeightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKDynamicChangeCellHeight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11321F0720882B6F00BD2118 /* Build configuration list for PBXProject "SKDynamicChangeCellHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11321F3620882B6F00BD2118 /* Debug */,
+				11321F3720882B6F00BD2118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11321F3820882B6F00BD2118 /* Build configuration list for PBXNativeTarget "SKDynamicChangeCellHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11321F3920882B6F00BD2118 /* Debug */,
+				11321F3A20882B6F00BD2118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11321F3B20882B6F00BD2118 /* Build configuration list for PBXNativeTarget "SKDynamicChangeCellHeightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11321F3C20882B6F00BD2118 /* Debug */,
+				11321F3D20882B6F00BD2118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11321F3E20882B6F00BD2118 /* Build configuration list for PBXNativeTarget "SKDynamicChangeCellHeightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11321F3F20882B6F00BD2118 /* Debug */,
+				11321F4020882B6F00BD2118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11321F0420882B6F00BD2118 /* Project object */;
+}
